@@ -44,7 +44,7 @@ function ModalEdit({ task, ordinal, onEditTask }: ModalEditProps) {
           <div className="flex items-start">
             <input
               type="text"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered text-black w-full max-w-xs"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
             />
