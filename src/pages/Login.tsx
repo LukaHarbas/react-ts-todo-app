@@ -23,7 +23,7 @@ function Login() {
       return;
     }
 
-    navigate('/');
+    navigate("/");
   };
 
   const handleInput = (e) => {

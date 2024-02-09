@@ -36,4 +36,3 @@ export const deleteTask = (tasks: Task[], id: number) => {
   localStorage.setItem("tasks", JSON.stringify(updatedTasks));
   return { success: true, message: "Task deleted successfully" };
 };
-

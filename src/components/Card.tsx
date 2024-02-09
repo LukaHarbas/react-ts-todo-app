@@ -22,7 +22,7 @@ function Card({ task, onDelete, onMove, onEdit }: CardProps) {
   };
 
   return (
-    <div className="card w-96 bg-neutral text-neutral-content">
+    <div className="card w-full bg-neutral text-neutral-content">
       <div className="card-body items-center text-center">
         <h2 className="card-title">{task.status}</h2>
         <p>{task.description}</p>

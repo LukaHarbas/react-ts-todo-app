@@ -95,8 +95,8 @@ function Home() {
           checked={selectedTab === "all"}
           onChange={() => setSelectedTab("all")}
         />
-        <div role="tabpanel" className="tab-content	p-10">
-          <div className="flex flex-col gap-3">
+        <div role="tabpanel" className="tab-content	py-10">
+          <div className="flex flex-col items-center gap-3">
             <input
               type="text"
               className="input input-bordered max-w-sm"
@@ -136,8 +136,8 @@ function Home() {
           checked={selectedTab === "To Do"}
           onChange={() => setSelectedTab("To Do")}
         />
-        <div role="tabpanel" className="tab-content	p-10">
-          <div className="flex flex-col gap-3">
+        <div role="tabpanel" className="tab-content	py-10">
+          <div className="flex flex-col items-center gap-3">
             {tasks.map(
               (task) =>
                 task.status === "To Do" && (
@@ -163,8 +163,8 @@ function Home() {
           checked={selectedTab === "In Progress"}
           onChange={() => setSelectedTab("In Progress")}
         />
-        <div role="tabpanel" className="tab-content	p-10">
-          <div className="flex flex-col gap-3">
+        <div role="tabpanel" className="tab-content	py-10">
+          <div className="flex flex-col items-center gap-3">
             {tasks.map(
               (task) =>
                 task.status === "In Progress" && (
@@ -188,8 +188,8 @@ function Home() {
           checked={selectedTab === "Done"}
           onChange={() => setSelectedTab("Done")}
         />
-        <div role="tabpanel" className="tab-content	p-10">
-          <div className="flex flex-col gap-3">
+        <div role="tabpanel" className="tab-content	py-10">
+          <div className="flex flex-col items-center gap-3">
             {tasks.map(
               (task) =>
                 task.status === "Done" && (
